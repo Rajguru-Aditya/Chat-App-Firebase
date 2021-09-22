@@ -18,15 +18,6 @@ function Login() {
         >
           <GoogleOutlined /> Sign In with Google
         </div>
-        <br /> <br />
-        {/* <div
-          className="login-button facebook"
-          onClick={() => {
-            auth.signInWithRedirect(new firebase.auth.FacebookAuthProvider());
-          }}
-        >
-          <FacebookOutlined /> Sign In with Facebook
-        </div> */}
       </div>
     </div>
   );
